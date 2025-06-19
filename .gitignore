@@ -48,6 +48,12 @@ coverage.xml
 *.cover
 *.py,cover
 .hypothesis/
+
+# Project specific files and folders
+Convert/
+*.ct
+*.xlsx
+*.csv
 .pytest_cache/
 cover/
 
