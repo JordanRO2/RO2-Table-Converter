@@ -1,22 +1,11 @@
-# CT2 File Conversion Tool Requirements
-# Core dependencies for CT and Excel file processing
+# RO2 Table Converter Requirements
+# Community tool for converting RO2 CT files to Excel format
+# Repository: https://github.com/JordanRO2/RO2-Table-Converter
 
-# Web interface framework
+# Core dependencies required to ru n the tool
 Flask>=2.3.0
-Werkzeug>=2.3.0
-
-# Excel file handling - required for .xlsx support
 openpyxl>=3.1.0
-
-# Optional: Enhanced data processing capabilities
-# pandas>=2.0.0  # Uncomment if advanced data analysis is needed
-
-# Optional: Character encoding detection for international text
-# chardet>=5.0.0  # Uncomment if automatic encoding detection is needed
-
-# Core Python libraries (included with Python 3.8+)
-# - pathlib: Modern file path handling
-# - struct: Binary data packing/unpacking  
-# - datetime: Timestamp generation
-# - logging: Comprehensive logging system
 # - typing: Type hints and annotations
+# - json: JSON data handling
+# - os: Operating system interface
+# - sys: System-specific parameters

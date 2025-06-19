@@ -49,13 +49,40 @@ coverage.xml
 *.py,cover
 .hypothesis/
 
-# Project specific files and folders
-Convert/
+# RO2 Table Converter specific files and folders
+convert/
+outputs/
+uploads/
 *.ct
 *.xlsx
 *.csv
+*.xls
+FILE_ASSET/
 .pytest_cache/
 cover/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Keep setup scripts in repository
+!setup.py
+!setup.bat
+!setup.ps1
+!setup.sh
 
 # Translations
 *.mo
